@@ -1,0 +1,57 @@
+button{
+    width: 350px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 30px;
+    display: block;
+    margin: 120px auto;
+    line-height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: all 2s;
+    position: absolute;
+    top: 10px; left: 10px;
+}
+.b2{
+    position: absolute;
+    top: 260px;
+}
+.div1{
+    text-align: center;
+    width: 400px; height: 500px;
+    position: relative;
+    position: absolute;
+    left: 500px; top: 70px;
+}
+body{
+    background-color: rgb(231, 224, 224);
+    text-align: center;
+}
+img{
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: black 2px solid;
+}
+body{
+    background-image: url(atm\ \(1\).png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+@media only screen and (max-width:500px){
+    .div1{
+        text-align: center;
+        width: 350px; height: 500px;
+        position: relative;
+        position: absolute;
+        left: 75px; top: 70px;
+    }
+}

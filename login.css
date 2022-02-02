@@ -1,0 +1,147 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.div1{
+    height: 100%; width: 40%;
+    text-align: center;
+}
+.img1{
+    width: 375px; height: 375px;
+    margin: 17px auto;
+    border-radius: 100px;
+}
+.p1{
+    text-align: center; 
+    font-size: 30px;
+    font-family: my new font;
+    margin-top: -2px;
+    animation: change 3s infinite;
+}
+body{
+    background-color: rgb(231, 224, 224);
+}
+@font-face{
+    font-family: my new font;
+    src: url(Adventure.otf);
+}
+@keyframes change{
+    0%{
+        color: black;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: blue;
+    }
+}
+.div2{
+    width: 40%; height: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    position: absolute;
+    top: 7px;
+}
+.input1{
+    width: 400px; height: 50px;
+    margin: 10px auto;
+    font-size: 25px;
+}
+.radio{
+    width: 25px; height: 25px;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+}
+.radio1{
+    position: absolute;
+    bottom: 135px; left: 200px;
+}
+.h11{
+    position: absolute;
+    bottom: 110px; left: 125px;
+}
+.radio2{
+    position: absolute;
+    bottom: 135px; left: 400px;
+}
+.h12{
+    position: absolute;
+    bottom: 110px; left: 275px;
+}
+button{
+    width: 300px; height: 50px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 60px; right: 20%;
+    border: rgb(231, 224, 224);
+    transition: all 2s;
+    cursor: pointer;
+}
+.file{
+    margin: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:500px) {
+    div{
+        display: block;
+        width: 500px;
+    }
+    .img1{
+        width: 250px; height: 250px;
+        border-radius: 10px;
+    }
+    .input1{
+        width: 250px; font-size: 15px;
+        display: block;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .radio{
+        width: 15px; height: 15px;
+    }
+    button{
+        width: 200px; font-size: 15px;
+        position: absolute;
+        left: 150px;
+    }
+    .h11{
+        left: 115px;
+        bottom: 160px;
+    }
+    .radio1{
+        left: 155px;
+        bottom: 180px;
+    }
+    .h12{
+        left: 220px;
+        bottom: 160px;
+    }
+    .radio2{
+        left: 280px;
+        bottom: 180px;
+    }
+    .div2{
+        position: relative;
+        top: 500px;
+        width: 480px;
+        position: absolute;
+        left: -92px;
+    }
+    .div1{
+        width: 480px;
+    }
+    .file{
+        margin: 0px auto;
+    }
+}

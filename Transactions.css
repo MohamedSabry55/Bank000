@@ -1,0 +1,69 @@
+div{
+    width: 18%;
+    height: 205px;
+    box-shadow: 0px 0px 5px 0px black;
+    display: inline-block;
+    margin: 15px;
+    background-color: white;
+    text-align: left;
+}
+p{
+    font-size: 22px;
+    font-family: mynewfont;
+}
+@font-face{
+    font-family: mynewfont;
+    src: url(The\ Hound.ttf);
+}
+body{
+    background-color: rgb(231, 224, 224);
+    text-align: center;
+}
+.input1{
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    left: 10%; bottom: 15px;
+    background-color: black; color: white;
+    border: inherit;
+    cursor: pointer;
+    transition: all 2s;
+}
+.input1:hover{
+    color: black;
+    background-color: white;
+    border: black 2px solid;
+}
+@media only screen and (max-width:500px){
+    div{
+        display: inline-block;
+        width: 200px;
+        height: 225px;
+        text-align: center;
+    }
+    .b1{
+        width: 300px;
+    }
+    .input1{
+        width: 150px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+button{
+    width: 500px; height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: black; color: white;
+    border: inherit;
+    border-radius: 25px;
+    transition: all 2s;
+    text-align: center;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: black 3px solid;
+}

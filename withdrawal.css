@@ -1,0 +1,38 @@
+button{
+    width: 350px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 30px;
+    display: block;
+    margin: 120px auto;
+    line-height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: all 2s;
+    position: relative;
+    top: 40px;
+}
+div{
+    text-align: center;
+}
+body{
+    background-color: rgb(231, 224, 224);
+}
+img{
+    position: relative;
+    top: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: black 2px solid;
+}
+body{
+    background-image: url(atm\ \(1\).png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
